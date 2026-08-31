@@ -1,0 +1,15 @@
+services:
+  starcorn:
+    build: .
+    container_name: starcorn
+    ports:
+      - "49690:49690"
+    volumes:
+      - ./data:/app/data
+      - ./media:/app/media
+    environment:
+      - PORT=49690
+      - ADMIN_USERNAME=starcorn
+      - ADMIN_PASSWORD=admin
+      - AUTO_LOGOUT_MINUTES=30
+    restart: unless-stopped

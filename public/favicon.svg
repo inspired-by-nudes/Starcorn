@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Thick background shucks -->
+  <path d="M 256,480 C -50,300 120,50 120,50 C 150,150 200,250 256,300 C 312,250 362,150 392,50 C 392,50 562,300 256,480 Z" fill="#1b5e20" />
+  
+  <!-- Inner light green shucks -->
+  <path d="M 256,480 C 50,350 160,100 160,100 C 180,180 220,280 256,320 C 292,280 332,180 352,100 C 352,100 462,350 256,480 Z" fill="#2e7d32" />
+
+  <!-- Glowing Star Kernel -->
+  <g transform="translate(256, 210) scale(1.6)">
+    <path d="M 0,-60 L 18,-18 L 65,-11 L 30,22 L 40,68 L 0,45 L -40,68 L -30,22 L -65,-11 L -18,-18 Z" fill="#e65100" />
+    <path d="M 0,-45 L 13,-13 L 50,-8 L 22,17 L 30,52 L 0,34 L -30,52 L -22,17 L -50,-8 L -13,-13 Z" fill="#ff8c00" />
+    <path d="M 0,-30 L 9,-9 L 35,-6 L 15,12 L 20,36 L 0,24 L -20,36 L -15,12 L -35,-6 L -9,-9 Z" fill="#ffd54f" />
+  </g>
+
+  <!-- Prominent Foreground Shucks crossing over the base of the star -->
+  <path d="M 256,480 C 100,450 140,250 150,220 C 190,300 230,350 256,370 C 256,370 200,450 256,480 Z" fill="#00c853" />
+  <path d="M 256,480 C 412,450 372,250 362,220 C 322,300 282,350 256,370 C 256,370 312,450 256,480 Z" fill="#00e676" />
+  
+  <!-- Center overlap fold -->
+  <path d="M 256,480 C 200,400 220,340 256,310 C 292,340 312,400 256,480 Z" fill="#00a040" />
+</svg>
